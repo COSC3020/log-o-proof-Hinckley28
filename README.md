@@ -21,4 +21,11 @@ $\log_{2} 5 = d$ where d is a constant
 
 = $T(n) \in O(\log_{5} n) \iff \exists c, n_0: T(n) \leq c \cdot \frac{(\log_{2} n)} {d} \forall n \geq n_0$\
 = $T(n) \in O(\log_{5} n) \iff \exists c, n_0: T(n) \leq c \cdot \frac {1} {d} \cdot (\log_{2} n) \forall n \geq n_0$\
+
+$T(n) \in O(\log_{2} n) \iff \exists c, n_0: T(n) \leq c \cdot (\log_{2} n) \forall n \geq n_0$\
+= $T(n) \in O(\log_{2} n) \iff \exists c, n_0: T(n) \leq c \cdot \frac{(\log_{5} n)} {(\log_{5} 2)} \forall n \geq n_0$\
+$\log_{5} 2 = d$ where d is a constant 
+
+= $T(n) \in O(\log_{2} n) \iff \exists c, n_0: T(n) \leq c \cdot \frac{(\log_{5} n)} {d} \forall n \geq n_0$\
+= $T(n) \in O(\log_{2} n) \iff \exists c, n_0: T(n) \leq c \cdot \frac {1} {d} \cdot (\log_{5} n) \forall n \geq n_0$\
 $T(n) \in O(\log_{5} n) \iff T(n) \in O(\log_{2} n)$
